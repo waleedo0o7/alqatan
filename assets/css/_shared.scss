@@ -1,0 +1,129 @@
+@import "base";
+@import "icomoon";
+
+@font-face {
+    font-family: DIN;
+    src: url(fonts/din-regular.ttf);
+    font-weight: normal;
+}
+
+body {
+    font-size: 16px;
+    font-family: DIN;
+}
+
+.social-media-links {
+    &.links-lg {
+        .link {
+            width: 45px;
+            height: 45px;
+            font-size: 22px;
+        }
+    }
+    .link {
+        color: #ffffff;
+        background:  var(--color-secondary);;
+        width: 30px;
+        height: 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border-radius: 200px;
+    }
+}
+
+.article-card {
+    display: flex;
+    border: 1px solid var(--color-gray-light);
+    border-radius: var(--main-border-radius);
+    box-shadow: var(--main-box-shadow);
+    overflow: hidden;
+    transition: var(--main-transition);
+
+    .image-wrapper {
+        width: 30%;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-fit: cover;
+            width: 100%;
+            aspect-ratio: 1/1.3;
+        }
+    }
+
+    .details-wrapper {
+        flex-grow: 1;
+        width: 70%;
+        padding: 10px 15px;
+
+        .title {
+            font-size: 1rem;
+        }
+
+        .time {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+.overlay {
+    content: "";
+    position: absolute;
+    background: var(--color-secondary-50);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    &:hover {
+        background: var(--color-secondary-80);
+    }
+}
+
+.co-video-card {
+    .video-card {
+        background-size: cover;
+        height: 180px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 38px;
+        position: relative;
+        border-radius: var(--main-border-radius);
+        overflow: hidden;
+
+        &:after {
+            @extend .overlay;
+        }
+
+        * {
+            position: relative;
+            z-index: 1;
+        }
+    }
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: ltr !important;
+
+    .shape {
+        width: 50px;
+        margin: 0 10px;
+
+        &.shape-end {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+html[dir="rtl"] {
+    body {
+        text-align: right;
+    }
+}
