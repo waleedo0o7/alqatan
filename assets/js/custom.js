@@ -38,8 +38,8 @@ function initExplanationsSlider() {
         slidesPerView: 3,
         spaceBetween: 20,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.explanations-button-next',
+            prevEl: '.explanations-button-prev',
         },
     });
 }
@@ -48,11 +48,11 @@ function initPartnersSlider() {
     const swiper = new Swiper('.partners-swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 3,
-        spaceBetween: 20,
+        slidesPerView: 5,
+        spaceBetween: 50,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.partners-button-next',
+            prevEl: '.partners-button-prev',
         },
     });
 }

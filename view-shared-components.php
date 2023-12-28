@@ -6,11 +6,11 @@
 
         <div class="container">
 
-            <div class="section-header mb-4">
-                <img src="assets/images/title-shape.svg" class="shape shape-start" alt="">
+            <div class="section-header mb-5">
+                <i class="icon icon-title-shape-left me-4"></i>
                 <h3 class="headline"> مؤلفات الشيخ </h3>
-                <img src="assets/images/title-shape.svg" class="shape shape-end" alt="">
-            </div><!-- section-header -->
+                <i class="icon icon-title-shape-right ms-4"></i>
+            </div> <!-- section-header -->
 
             <div class="section-content mb-4">
                 <div class="row">
@@ -32,12 +32,12 @@
     <section class="section mb-5">
 
         <div class="container">
-
-            <div class="section-header mb-4">
-                <img src="assets/images/title-shape.svg" class="shape shape-start" alt="">
+            
+            <div class="section-header mb-5">
+                <i class="icon icon-title-shape-left me-4"></i>
                 <h3 class="headline"> مرئيات </h3>
-                <img src="assets/images/title-shape.svg" class="shape shape-end" alt="">
-            </div><!-- section-header -->
+                <i class="icon icon-title-shape-right ms-4"></i>
+            </div> <!-- section-header -->
 
             <div class="section-content mb-4">
                 <div class="row">
