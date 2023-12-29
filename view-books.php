@@ -9,20 +9,20 @@
 
         <div class="section-header mb-5 mt-5">
             <i class="icon icon-title-shape-left me-4"></i>
-            <h3 class="headline"> كويت الخير </h3>
+            <h3 class="headline"> مؤلفات الشيخ </h3>
             <i class="icon icon-title-shape-right ms-4"></i>
         </div>
 
         <div class="row mb-5">
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
         </div>
 
 
