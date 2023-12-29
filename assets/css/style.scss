@@ -1,1 +1,18 @@
 @import "shared";
+
+.co-book-details-card {
+    .book-image { 
+        width: 100%;
+
+        .image {
+            width: 100%;
+        }
+
+        .buttons-wrapper {
+            position: absolute;
+            bottom: 50px;
+            left: 0;
+            width: 100%; 
+        }
+    }
+}

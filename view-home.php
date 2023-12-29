@@ -37,28 +37,32 @@
                 <div class="col-sm-6 col-xl-3">
                     <div class="co-icon-card">
                         <a href="#">
-                            <i class="icon icon-video-2"></i>
+                            <i class="icon icon-video-2 mb-3"></i>
+                            <h3 class="text-center"> المرئيات </h3>
                         </a>
                     </div><!-- co-icon-card -->
                 </div> <!-- col-sm-6 -->
                 <div class="col-sm-6 col-xl-3">
                     <div class="co-icon-card">
                         <a href="#">
-                            <i class="icon icon-video-1"></i>
+                            <i class="icon icon-video-1 mb-3"></i>
+                            <h3 class="text-center"> المحاضرات </h3>
                         </a>
                     </div><!-- co-icon-card -->
                 </div> <!-- col-sm-6 -->
                 <div class="col-sm-6 col-xl-3">
                     <div class="co-icon-card">
                         <a href="#">
-                            <i class="icon icon-book-open-1"></i>
+                            <i class="icon icon-book-open-1 mb-3"></i>
+                            <h3 class="text-center"> مؤلفات الشيخ </h3>
                         </a>
                     </div><!-- co-icon-card -->
                 </div> <!-- col-sm-6 -->
                 <div class="col-sm-6 col-xl-3">
                     <div class="co-icon-card">
                         <a href="#">
-                            <i class="icon icon-sound-waves"></i>
+                            <i class="icon icon-sound-waves mb-3"></i>
+                            <h3 class="text-center"> الخطب </h3>
                         </a>
                     </div><!-- co-icon-card -->
                 </div> <!-- col-sm-6 -->
