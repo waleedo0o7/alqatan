@@ -49,7 +49,7 @@ body {
         justify-content: center;
         align-items: center;
         color: #fff;
-        border-radius: 5px;
+        border-radius: var(--main-border-radius);
         font-size: 14px;
 
         &:hover {
@@ -184,13 +184,13 @@ body {
 
 .co-partner-card {
     margin: 0px;
-    border-radius: 10px;
+    border-radius: var(--main-border-radius);
     img {
         height: 100%;
         width: auto;
         margin: auto;
         display: block;
-        border-radius: 10px;
+        border-radius: var(--main-border-radius);
         background-color: #fff;
         box-shadow: 0 0 30px #f0f0f0;
         padding: 10px;
@@ -204,7 +204,6 @@ body {
 .swiper-slide-content {
     padding: 0 4px;
 }
-
 
 html[dir="rtl"] {
     body {
@@ -224,7 +223,6 @@ html[dir="rtl"] {
         }
     }
 
-
     .co-swiper-slider.arrows-down {
         .swiper-button-prev {
             left: unset !important;
@@ -237,6 +235,4 @@ html[dir="rtl"] {
             transform: rotate(180deg);
         }
     }
-
-
 }
