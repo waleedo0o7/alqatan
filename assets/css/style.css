@@ -30,7 +30,7 @@
 }
 
 .bg-secondary {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary) !important;
 }
 
 .color-white {
@@ -218,6 +218,43 @@ h6 {
 }
 .co-swiper-slider .swiper-button-next {
   margin-inline-end: -35px;
+}
+
+.swiper-pagination-bullets {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  opacity: 1;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
+
+.co-swiper-slider.arrows-down .swiper-pagination-bullets {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.co-swiper-slider.arrows-down .swiper-button-prev {
+  bottom: -40px !important;
+  top: unset !important;
+  left: calc(50% - 50px);
+  font-size: 32px;
+  width: 70px;
+  height: 70px;
+}
+.co-swiper-slider.arrows-down .swiper-button-next {
+  bottom: -40px !important;
+  top: unset !important;
+  right: calc(50% - 50px);
+  font-size: 32px;
+  width: 70px;
+  height: 70px;
 }
 
 @font-face {
@@ -474,6 +511,16 @@ html[dir=rtl] .co-swiper-slider .swiper-button-next {
   right: unset !important;
   transform: rotate(180deg);
 }
+html[dir=rtl] .co-swiper-slider.arrows-down .swiper-button-prev {
+  left: unset !important;
+  right: calc(50% - 50px) !important;
+  transform: rotate(180deg);
+}
+html[dir=rtl] .co-swiper-slider.arrows-down .swiper-button-next {
+  left: calc(50% - 50px) !important;
+  right: unset !important;
+  transform: rotate(180deg);
+}
 
 .co-book-details-card .book-image {
   width: 100%;
@@ -486,6 +533,30 @@ html[dir=rtl] .co-swiper-slider .swiper-button-next {
   bottom: 50px;
   left: 0;
   width: 100%;
+}
+
+.co-gallery-card-images {
+  position: relative;
+  padding: 20px;
+}
+.co-gallery-card-images .co-images {
+  width: 240px;
+  height: 240px;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+}
+.co-gallery-card-images .co-images img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  position: absolute;
+}
+.co-gallery-card-images .co-images img.image-1 {
+  transform: rotate(-8deg);
+}
+.co-gallery-card-images .co-images img.image-2 {
+  transform: rotate(8deg);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -18,7 +18,10 @@
     <link href="assets/vendors/select2/select2.min.css" rel="stylesheet" />
 
     <!-- Swiper Slider -->
-    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"  />
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Fancybox -->
+    <link href="assets/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet" />
 
     <!-- Custom -->
     <link href="assets/css/style.css" rel="stylesheet">

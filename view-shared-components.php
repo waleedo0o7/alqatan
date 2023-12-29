@@ -32,7 +32,7 @@
     <section class="section mb-5">
 
         <div class="container">
-            
+
             <div class="section-header mb-5">
                 <i class="icon icon-title-shape-left me-4"></i>
                 <h3 class="headline"> مرئيات </h3>
@@ -110,6 +110,7 @@
     </section>
 
     <section class="section mb-5">
+
         <div class="container  mb-5">
             <div class="co-swiper-slider">
                 <!-- If we need navigation buttons -->
@@ -162,6 +163,47 @@
                 </div>
             </div>
         </div>
+
+    </section>
+
+
+
+    <section id="gallery">
+
+        <h1 class="text-center text-capitalize"> Nested Gallery </h1>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <a data-fancybox="fancy-gallery" href="assets/images/other-1.jpg">
+                        <img alt="" class="img-fluid" src="assets/images/other-1.jpg">
+                        <p> عنوان الصورة </p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a data-fancybox="fancy-gallery" href="assets/images/other-2.jpg">
+                        <img alt="" class="img-fluid" src="assets/images/other-2.jpg">
+                        <p> عنوان الصورة </p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a data-fancybox="fancy-gallery" href="assets/images/other-3.jpg">
+                        <img alt="" class="img-fluid" src="assets/images/other-3.jpg">
+                        <p> عنوان الصورة </p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a data-fancybox="fancy-gallery" href="assets/images/other-4.jpg">
+                        <img alt="" class="img-fluid" src="assets/images/other-4.jpg">
+                        <p> عنوان الصورة </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
     </section>
 
 </main>

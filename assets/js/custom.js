@@ -3,6 +3,7 @@ $(function () {
     initMostReadsSlider();
     initExplanationsSlider();
     initPartnersSlider();
+    initGallerySlider();
 });
 
 function initVisualsSlider() {
@@ -53,6 +54,24 @@ function initPartnersSlider() {
         navigation: {
             nextEl: '.partners-button-next',
             prevEl: '.partners-button-prev',
+        },
+    });
+}
+
+function initGallerySlider() {
+    const swiper = new Swiper('.gallery-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 50,
+        pagination: {
+            el: '.gallery-pagination',
+            type: 'bullets',
+            clickable: true
+        },
+        navigation: {
+            nextEl: '.gallery-button-next',
+            prevEl: '.gallery-button-prev',
         },
     });
 }

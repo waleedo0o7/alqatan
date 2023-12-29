@@ -1,3 +1,8 @@
+<footer class="footer">
+    <h1 class="text-center p-3 bg-secondary color-white text-capitalize"> footer </h1>
+</footer> <!-- footer -->
+
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="assets/vendors/bootstrap/jquery-3.2.1.min.js"></script>
@@ -9,6 +14,9 @@
 
 <!-- dataTables -->
 <script src="assets/vendors/datatables/jquery.dataTables.min.js"></script>
+
+<!-- Fancybox -->
+<script src="assets/vendors/fancybox/jquery.fancybox.min.js"></script>
 
 <!-- Swiper -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

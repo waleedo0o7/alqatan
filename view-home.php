@@ -1,21 +1,6 @@
 <?php include 'layout-header.php'; ?>
 
-
-<div class="into-section">
-
-    <div class="top-bar">
-        <h1 class="text-center p-3 bg-primary text-capitalize"> top bar </h1>
-    </div> <!-- top-bar -->
-
-    <div class="hero-image">
-        <h1 class="text-center p-3 bg-secondary color-white text-capitalize"> hero image </h1>
-    </div> <!-- hero-image -->
-
-    <div class="nav-menu">
-        <h1 class="text-center p-3 bg-primary text-capitalize"> nav menu </h1>
-    </div> <!-- nav-menu -->
-
-</div><!-- into-section -->
+<?php include 'layout-intro-section.php'; ?>
 
 <main>
 
@@ -75,7 +60,7 @@
 
     </section> <!-- section -->
 
-    <section class="section py-5">
+    <section id="books" class="section py-5">
 
         <div class="section-header mb-5">
             <i class="icon icon-title-shape-left me-4"></i>
@@ -113,8 +98,7 @@
 
     </section>
 
-
-    <section class="section py-5 bg-gray-light">
+    <section id="visuals" class="section py-5 bg-gray-light">
 
         <div class="container mb-4">
 
@@ -179,8 +163,7 @@
 
     </section> <!-- section -->
 
-
-    <section class="section mb-5 py-5">
+    <section id="most-reads" class="section mb-5 py-5">
 
         <div class="container mb-4">
 
@@ -249,7 +232,7 @@
 
     </section> <!-- section -->
 
-    <section class="section pb-5">
+    <section id="explanations" class="section pb-5">
 
         <div class="container mb-4">
 
@@ -314,11 +297,155 @@
 
     </section> <!-- section -->
 
-    <div class="gallery">
-        <h1 class="text-center p-3 bg-secondary color-white text-capitalize"> Gallery </h1>
-    </div> <!-- gallery -->
 
-    <section class="section py-5">
+
+
+    <section id="gallery" class="section bg-secondary py-5">
+
+        <div class="container mb-4">
+
+            <div class="section-header mb-5">
+                <i class="icon icon-title-shape-left me-4"></i>
+                <h3 class="headline color-white"> صور الشيخ </h3>
+                <i class="icon icon-title-shape-right ms-4"></i>
+            </div> <!-- section-header -->
+
+            <div class="co-swiper-slider arrows-down">
+
+                <div class="swiper-button-prev gallery-button-prev">
+                    <i class="icon icon-arrow-left"></i>
+                </div>
+
+                <div class="swiper-button-next gallery-button-next">
+                    <i class="icon icon-arrow-right"></i>
+                </div>
+
+                <div class="swiper gallery-swiper">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+
+                            <div class="swiper-slide-content">
+
+                                <div class="co-gallery-card-images">
+
+                                    <div class="co-images">
+
+                                        <a data-fancybox="fancy-gallery-1" href="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/al-qatan-1.jpg">
+
+                                        </a>
+
+                                    </div>
+
+                                    <h3 class="text-center color-primary"> لقاءات </h3>
+
+                                </div><!-- gallery-card -->
+                            </div> <!-- swiper-slide-content -->
+                        </div> <!-- swiper-slide -->
+
+                        <div class="swiper-slide">
+
+                            <div class="swiper-slide-content">
+
+                                <div class="co-gallery-card-images">
+
+                                    <div class="co-images">
+
+                                        <a data-fancybox="fancy-gallery-1" href="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/al-qatan-1.jpg">
+
+                                        </a>
+
+                                    </div>
+
+                                    <h3 class="text-center color-primary"> ندوات </h3>
+
+                                </div><!-- gallery-card -->
+                            </div> <!-- swiper-slide-content -->
+                        </div> <!-- swiper-slide -->
+
+                        <div class="swiper-slide">
+
+                            <div class="swiper-slide-content">
+
+                                <div class="co-gallery-card-images">
+
+                                    <div class="co-images">
+
+                                        <a data-fancybox="fancy-gallery-1" href="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/al-qatan-1.jpg">
+
+                                        </a>
+
+                                    </div>
+
+                                    <h3 class="text-center color-primary"> شهادات وتكريم </h3>
+
+                                </div><!-- gallery-card -->
+                            </div> <!-- swiper-slide-content -->
+                        </div> <!-- swiper-slide -->
+
+                        <div class="swiper-slide">
+
+                            <div class="swiper-slide-content">
+
+                                <div class="co-gallery-card-images">
+
+                                    <div class="co-images">
+
+                                        <a data-fancybox="fancy-gallery-1" href="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-1" src="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-2" src="assets/images/al-qatan-1.jpg">
+
+                                            <img alt="" class="img-fluid image-3" src="assets/images/al-qatan-1.jpg">
+
+                                        </a>
+
+                                    </div>
+
+                                    <h3 class="text-center color-primary"> عنوان أخر </h3>
+
+                                </div><!-- gallery-card -->
+                            </div> <!-- swiper-slide-content -->
+                        </div> <!-- swiper-slide -->
+
+                    </div> <!-- swiper-wrapper -->
+
+                    <!-- If we need pagination -->
+                    <div class="gallery-pagination"></div>
+
+                </div> <!-- swiper gallery-swiper -->
+
+            </div> <!-- co-swiper-slider -->
+
+        </div> <!-- container -->
+
+    </section> <!-- section -->
+
+
+
+
+
+    <section id="partners" class="section py-5">
 
         <div class="container mb-4">
 
@@ -397,10 +524,6 @@
 
     </section> <!-- section -->
 
-
-    <footer class="footer">
-        <h1 class="text-center p-3 bg-secondary color-white text-capitalize"> footer </h1>
-    </footer> <!-- footer -->
 
 </main>
 

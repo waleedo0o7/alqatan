@@ -224,4 +224,19 @@ html[dir="rtl"] {
         }
     }
 
+
+    .co-swiper-slider.arrows-down {
+        .swiper-button-prev {
+            left: unset !important;
+            right: calc(50% - 50px) !important;
+            transform: rotate(180deg);
+        }
+        .swiper-button-next {
+            left: calc(50% - 50px) !important;
+            right: unset !important;
+            transform: rotate(180deg);
+        }
+    }
+
+
 }

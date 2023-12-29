@@ -1,7 +1,7 @@
 @import "shared";
 
 .co-book-details-card {
-    .book-image { 
+    .book-image {
         width: 100%;
 
         .image {
@@ -12,7 +12,34 @@
             position: absolute;
             bottom: 50px;
             left: 0;
-            width: 100%; 
+            width: 100%;
+        }
+    }
+}
+
+.co-gallery-card-images {
+    position: relative;
+    padding: 20px;
+
+    .co-images {
+        width: 240px;
+        height: 240px;
+        position: relative;
+        margin: auto;
+        padding: 20px;
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            position: absolute;
+
+            &.image-1 {
+                transform: rotate(-8deg);
+            }
+
+            &.image-2 {
+                transform: rotate(8deg);
+            }
         }
     }
 }
