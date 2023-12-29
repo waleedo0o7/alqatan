@@ -4,9 +4,90 @@
 
 <main>
 
-    <section class="section">
-        <h1 class="text-center p-3 bg-primary text-capitalize"> latest news slider </h1>
-    </section> <!-- section -->
+    <section id="news">
+        <div class="container">
+            <div class="co-news-slider">
+
+                <div class="news-slider">
+
+                    <div class="swiper swiper-news-slider">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <?php @include "./shared-html/news-slider-card-lg.html"; ?>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <?php @include "./shared-html/news-slider-card-lg.html"; ?>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <?php @include "./shared-html/news-slider-card-lg.html"; ?>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <?php @include "./shared-html/news-slider-card-lg.html"; ?>
+                            </div> <!-- swiper-slide -->
+                            <div class="swiper-slide">
+                                <?php @include "./shared-html/news-slider-card-lg.html"; ?>
+                            </div> <!-- swiper-slide -->
+
+                        </div>
+ 
+
+                        <!-- If we need pagination -->
+                        <div class="news-pagination"></div>
+
+                    </div>
+
+
+                    <div class="title-and-slider">
+
+                        <div class="headline-title">
+
+                            <i class="icon icon-lg icon-title-shape-left me-4"></i>
+                            <p class="lead m-0"> الأكثر مشاهدة </p>
+                            <i class="icon icon-lg icon-title-shape-right ms-4"></i>
+                        </div>
+
+                        <div class="swiper swiper-news-thumbs-slider">
+
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <?php @include "./shared-html/news-slider-card.html"; ?>
+                                </div> <!-- swiper-slide -->
+
+
+                                <div class="swiper-slide">
+                                    <?php @include "./shared-html/news-slider-card.html"; ?>
+                                </div> <!-- swiper-slide -->
+
+
+                                <div class="swiper-slide">
+                                    <?php @include "./shared-html/news-slider-card.html"; ?>
+                                </div> <!-- swiper-slide -->
+
+
+                                <div class="swiper-slide">
+                                    <?php @include "./shared-html/news-slider-card.html"; ?>
+                                </div> <!-- swiper-slide -->
+
+
+                                <div class="swiper-slide">
+                                    <?php @include "./shared-html/news-slider-card.html"; ?>
+                                </div> <!-- swiper-slide -->
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div> <!-- news-slider -->
+
+            </div><!-- co-news-slider -->
+        </div>
+    </section>
 
     <section class="section py-5 bg-gray-light">
 
@@ -297,9 +378,6 @@
 
     </section> <!-- section -->
 
-
-
-
     <section id="gallery" class="section bg-secondary py-5">
 
         <div class="container mb-4">
@@ -441,10 +519,6 @@
 
     </section> <!-- section -->
 
-
-
-
-
     <section id="partners" class="section py-5">
 
         <div class="container mb-4">
@@ -523,7 +597,6 @@
 
 
     </section> <!-- section -->
-
 
 </main>
 

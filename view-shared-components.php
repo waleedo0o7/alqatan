@@ -166,8 +166,6 @@
 
     </section>
 
-
-
     <section id="gallery">
 
         <h1 class="text-center text-capitalize"> Nested Gallery </h1>

@@ -18,7 +18,7 @@
         </div>
     </div> <!-- top-bar -->
 
-    <div class="co-intro bg-secondary">
+    <div class="co-intro ltr bg-secondary">
         <div class="container">
             <div class="co-hero-image">
                 <img src="assets/images/alqatan-intro.png" class="img-fluid hero-image">
