@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="end-content">
-                    <p class="date m-0"> <i class="fa fa-search"></i> </p>
+                    <p class="date m-0 d-none"> <i class="fa fa-search"></i> </p>
                 </div>
 
             </div>
@@ -32,25 +32,25 @@
 
             <ul class="nav-menu">
 
-                <li class="menu-item"> <a href="#" class="menu-link active"> الرئيسية </a></li>
+                <li class="menu-item"> <a href="view-home.php" class="menu-link active"> الرئيسية </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> السيرة الذاتية </a></li>
+                <li class="menu-item"> <a href="view-cv.php" class="menu-link"> السيرة الذاتية </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> مؤلفات الشيخ </a></li>
+                <li class="menu-item"> <a href="view-books.php" class="menu-link"> مؤلفات الشيخ </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> الخطب المنبرية </a></li>
+                <li class="menu-item"> <a href="view-speechs.php" class="menu-link"> الخطب المنبرية </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> المحاضرات </a></li>
+                <li class="menu-item"> <a href="view-lectures.php" class="menu-link"> المحاضرات </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> مرئيات </a></li>
+                <li class="menu-item"> <a href="view-visuals.php" class="menu-link"> مرئيات </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> لقاءات إذاعية </a></li>
+                <li class="menu-item"> <a href="view-radio-interviews.php" class="menu-link"> لقاءات إذاعية </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> منبر الأقصى </a></li>
+                <li class="menu-item"> <a href="view-aqsa.php" class="menu-link"> منبر الأقصى </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> شروح علمية </a></li>
+                <li class="menu-item"> <a href="view-explanations.php" class="menu-link"> شروح علمية </a></li>
 
-                <li class="menu-item"> <a href="#" class="menu-link"> كويت الخير </a></li>
+                <li class="menu-item"> <a href="view-kuwait.php" class="menu-link"> كويت الخير </a></li>
 
             </ul>
 

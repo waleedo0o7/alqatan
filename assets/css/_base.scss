@@ -93,11 +93,19 @@
     margin-inline-start: 25px;
 }
 
+.ms-auto {
+    margin-inline-start: auto;
+}
+
 a {
     color: var(--color-primary);
     &:hover {
         color: var(--color-primary-dark);
         text-decoration: none;
+    }
+
+    &.color-secondary{
+        color: var(--color-secondary);
     }
 }
 
