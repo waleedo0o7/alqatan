@@ -5,6 +5,8 @@ $(function () {
     initPartnersSlider();
     initGallerySlider();
     NewsSlider();
+    initTestimonialsSlider();
+    initAchievementsSlider();
 });
 
 function initVisualsSlider() {
@@ -121,3 +123,28 @@ function NewsSlider() {
 
 }
 
+function initTestimonialsSlider() {
+    const swiper = new Swiper('.testimonials-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.testimonials-button-next',
+            prevEl: '.testimonials-button-prev',
+        },
+    });
+}
+
+function initAchievementsSlider() {
+    const swiper = new Swiper('.achievements-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.achievements-button-next',
+            prevEl: '.achievements-button-prev',
+        },
+    });
+}

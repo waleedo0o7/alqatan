@@ -31,7 +31,7 @@
                             </div> <!-- swiper-slide -->
 
                         </div>
- 
+
 
                         <!-- If we need pagination -->
                         <div class="news-pagination"></div>
@@ -87,9 +87,9 @@
 
             </div><!-- co-news-slider -->
         </div>
-    </section>
+    </section> <!-- news -->
 
-    <section class="section py-5 bg-gray-light">
+    <section id="legacy" class="section py-5 bg-gray-light">
 
         <div class="section-header mb-5">
             <i class="icon icon-title-shape-left me-4"></i>
@@ -139,7 +139,7 @@
         </div> <!-- container -->
 
 
-    </section> <!-- section -->
+    </section> <!-- legacy -->
 
     <section id="books" class="section py-5">
 
@@ -177,7 +177,7 @@
             <a href="#" class="btn btn-primary"> مشاهدة المزيد </a>
         </div>
 
-    </section>
+    </section> <!-- books -->
 
     <section id="visuals" class="section py-5 bg-gray-light">
 
@@ -242,7 +242,7 @@
             <a href="#" class="btn btn-primary"> مشاهدة المزيد </a>
         </div>
 
-    </section> <!-- section -->
+    </section> <!-- visuals -->
 
     <section id="most-reads" class="section mb-5 py-5">
 
@@ -311,7 +311,7 @@
             <a href="#" class="btn btn-primary"> مشاهدة المزيد </a>
         </div>
 
-    </section> <!-- section -->
+    </section> <!-- most-reads -->
 
     <section id="explanations" class="section pb-5">
 
@@ -376,7 +376,7 @@
             <a href="#" class="btn btn-primary"> مشاهدة المزيد </a>
         </div>
 
-    </section> <!-- section -->
+    </section> <!-- explanations -->
 
     <section id="gallery" class="section bg-secondary py-5">
 
@@ -403,106 +403,28 @@
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide">
-
                             <div class="swiper-slide-content">
-
-                                <div class="co-gallery-card-images">
-
-                                    <div class="co-images">
-
-                                        <a data-fancybox="fancy-gallery-1" href="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-1" src="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-2" src="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-3" src="assets/images/al-qatan-1.jpg">
-
-                                        </a>
-
-                                    </div>
-
-                                    <h3 class="text-center color-primary"> لقاءات </h3>
-
-                                </div><!-- gallery-card -->
+                                <?php @include "./shared-html/gallery-in-slider-card.html"; ?>
                             </div> <!-- swiper-slide-content -->
                         </div> <!-- swiper-slide -->
-
                         <div class="swiper-slide">
-
                             <div class="swiper-slide-content">
-
-                                <div class="co-gallery-card-images">
-
-                                    <div class="co-images">
-
-                                        <a data-fancybox="fancy-gallery-1" href="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-1" src="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-2" src="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-3" src="assets/images/al-qatan-1.jpg">
-
-                                        </a>
-
-                                    </div>
-
-                                    <h3 class="text-center color-primary"> ندوات </h3>
-
-                                </div><!-- gallery-card -->
+                                <?php @include "./shared-html/gallery-in-slider-card.html"; ?>
                             </div> <!-- swiper-slide-content -->
                         </div> <!-- swiper-slide -->
-
                         <div class="swiper-slide">
-
                             <div class="swiper-slide-content">
-
-                                <div class="co-gallery-card-images">
-
-                                    <div class="co-images">
-
-                                        <a data-fancybox="fancy-gallery-1" href="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-1" src="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-2" src="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-3" src="assets/images/al-qatan-1.jpg">
-
-                                        </a>
-
-                                    </div>
-
-                                    <h3 class="text-center color-primary"> شهادات وتكريم </h3>
-
-                                </div><!-- gallery-card -->
+                                <?php @include "./shared-html/gallery-in-slider-card.html"; ?>
                             </div> <!-- swiper-slide-content -->
                         </div> <!-- swiper-slide -->
-
                         <div class="swiper-slide">
-
                             <div class="swiper-slide-content">
-
-                                <div class="co-gallery-card-images">
-
-                                    <div class="co-images">
-
-                                        <a data-fancybox="fancy-gallery-1" href="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-1" src="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-2" src="assets/images/al-qatan-1.jpg">
-
-                                            <img alt="" class="img-fluid image-3" src="assets/images/al-qatan-1.jpg">
-
-                                        </a>
-
-                                    </div>
-
-                                    <h3 class="text-center color-primary"> عنوان أخر </h3>
-
-                                </div><!-- gallery-card -->
+                                <?php @include "./shared-html/gallery-in-slider-card.html"; ?>
+                            </div> <!-- swiper-slide-content -->
+                        </div> <!-- swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-content">
+                                <?php @include "./shared-html/gallery-in-slider-card.html"; ?>
                             </div> <!-- swiper-slide-content -->
                         </div> <!-- swiper-slide -->
 
@@ -517,7 +439,7 @@
 
         </div> <!-- container -->
 
-    </section> <!-- section -->
+    </section> <!-- gallery -->
 
     <section id="partners" class="section py-5">
 
@@ -596,7 +518,7 @@
         </div> <!-- container -->
 
 
-    </section> <!-- section -->
+    </section> <!-- partners -->
 
 </main>
 

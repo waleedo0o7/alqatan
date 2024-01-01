@@ -23,6 +23,9 @@
     <!-- Fancybox -->
     <link href="assets/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet" />
 
+
+    <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+
     <!-- Custom -->
     <link href="assets/css/style.css" rel="stylesheet">
 

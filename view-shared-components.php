@@ -204,6 +204,107 @@
 
     </section>
 
+    <section>
+        <h1 class="text-center"> video js </h1>
+        <video src="assets/post-001.mp4" class="video-js" controls preload="auto" data-setup="{}"></video>
+    </section>
+
+    <section class="my-5">
+
+        <div class="container">
+
+            <div class="co-custom-taps">
+
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tap1-tab" data-toggle="tab" href="#tap1" role="tab" aria-controls="tap1" aria-selected="true"> نسب الشيخ </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tap2-tab" data-toggle="tab" href="#tap2" role="tab" aria-controls="tap2" aria-selected="false"> نشأته وتعلمه </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="tap3-tab" data-toggle="tab" href="#tap3" role="tab" aria-controls="tap3" aria-selected="false"> السيرة الدعوية </a>
+                    </li>
+
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="tap3-tab" data-toggle="tab" href="#tap3" role="tab" aria-controls="tap3" aria-selected="false"> منهج الشيخ </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="tap3-tab" data-toggle="tab" href="#tap3" role="tab" aria-controls="tap3" aria-selected="false"> المسيرة الدعوية </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="tap3-tab" data-toggle="tab" href="#tap3" role="tab" aria-controls="tap3" aria-selected="false"> إسهامات الشيخ </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="tap3-tab" data-toggle="tab" href="#tap3" role="tab" aria-controls="tap3" aria-selected="false"> الشيوخ الذي تتلمذ على أيديهم </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="tap3-tab" data-toggle="tab" href="#tap3" role="tab" aria-controls="tap3" aria-selected="false"> مؤلفاته </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="tap3-tab" data-toggle="tab" href="#tap3" role="tab" aria-controls="tap3" aria-selected="false"> تلاميذ الشيخ </a>
+                    </li>
+
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="tap1" role="tabpanel" aria-labelledby="tap1-tab">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p> هو أحمد بن عبد العزيز بن أحمد بن إبراهيم بن صقر بن فواز القطان التميمي، ولد ونشأ في مدينة الكويت ودرس التربية الإسلامية ثمانية عشر عامًا، حتى تخرج من معهد المعلمين في عام 1969 </p>
+                                <p> اختلط في بداية حياته بالشيوعيين في الكويت ثم تعرف على الحركة الإسلامية فصار من أبرز خطباء حركة الصحوة الإسلامية في ثمانينيات وبداية تسعينيات القرن العشرين في الكويت. </p>
+                            </div>
+
+                            <div class="col-md-5">
+                                <img src="assets/images/cv-01.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tap2" role="tabpanel" aria-labelledby="tap2-tab">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p> هو أحمد بن عبد العزيز بن أحمد بن إبراهيم بن صقر بن فواز القطان التميمي، ولد ونشأ في مدينة الكويت ودرس التربية الإسلامية ثمانية عشر عامًا، حتى تخرج من معهد المعلمين في عام 1969 </p>
+                                <p> اختلط في بداية حياته بالشيوعيين في الكويت ثم تعرف على الحركة الإسلامية فصار من أبرز خطباء حركة الصحوة الإسلامية في ثمانينيات وبداية تسعينيات القرن العشرين في الكويت. </p>
+                            </div>
+
+                            <div class="col-md-5">
+                                <img src="assets/images/cv-01.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tap3" role="tabpanel" aria-labelledby="tap3-tab">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p> هو أحمد بن عبد العزيز بن أحمد بن إبراهيم بن صقر بن فواز القطان التميمي، ولد ونشأ في مدينة الكويت ودرس التربية الإسلامية ثمانية عشر عامًا، حتى تخرج من معهد المعلمين في عام 1969 </p>
+                                <p> اختلط في بداية حياته بالشيوعيين في الكويت ثم تعرف على الحركة الإسلامية فصار من أبرز خطباء حركة الصحوة الإسلامية في ثمانينيات وبداية تسعينيات القرن العشرين في الكويت. </p>
+                            </div>
+
+                            <div class="col-md-5">
+                                <img src="assets/images/cv-01.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- co-custom-taps -->
+
+        </div>
+
+    </section>
+
 </main>
 
 <?php include 'layout-footer.php'; ?>

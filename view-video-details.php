@@ -33,11 +33,8 @@
         </div><!-- co-views-and-share -->
 
 
-        <div class="co-video-card mb-5">
-            <div class="video-card mb-2" style="background-image: url(assets/images/video-card-bg.jpg); height: 400px;">
-                <i class="fab fa-youtube"></i>
-            </div><!-- video-card -->
-
+        <div class="co-play-video-card mb-5">
+            <video src="assets/post.mp4" class="video-js" controls preload="auto" data-setup="{}"></video>
         </div>
 
 
