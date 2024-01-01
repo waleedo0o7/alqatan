@@ -792,12 +792,7 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
 }
 .into-section .co-intro .co-hero-image {
   width: 80%;
-}
-.into-section .co-intro .co-hero-image img {
-  height: auto;
-  width: auto;
   margin: auto;
-  display: block;
   margin-inline-start: 20%;
 }
 .into-section .co-nav-menu {
@@ -823,6 +818,19 @@ html[dir=rtl] .input-with-submit-button .submit-btn {
 .into-section .co-nav-menu .nav-menu a.menu-link.active, .into-section .co-nav-menu .nav-menu a.menu-link:hover {
   background-color: var(--color-primary);
   border-radius: var(--main-border-radius);
+}
+.into-section .container {
+  position: relative;
+}
+.into-section .social-media-links-color-primary {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+}
+.into-section .social-media-links-color-primary .link {
+  width: 50px;
+  height: 50px;
+  font-size: 26px;
 }
 
 .co-news-slider {

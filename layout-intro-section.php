@@ -26,10 +26,19 @@
         </div> <!-- container -->
     </div> <!-- hero-image -->
 
+
+    <div class="container">
+        <ul class="d-flex social-media-links-color-primary justify-content-center links-lg reset-ul">
+            <li class="ml-2"> <a href="#" class="link facebook"> <i class="fab  fa-facebook-f"></i> </a></li>
+            <li class="ml-2"> <a href="#" class="link twitter"> <i class="fab  fa-twitter"></i> </a> </li>
+            <li class="ml-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-instagram"></i> </a> </li>
+            <li class="ml-2"> <a href="#" class="link telegram"> <i class="fa  fa-paper-plane"></i> </a></li>
+            <li class="ml-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-youtube"></i> </a> </li>
+        </ul>
+    </div>
+
     <div class="co-nav-menu">
-
         <div class="container">
-
             <ul class="nav-menu">
 
                 <li class="menu-item"> <a href="view-home.php" class="menu-link active"> الرئيسية </a></li>
@@ -55,6 +64,6 @@
             </ul>
 
         </div>
-    </div> <!-- nav-menu -->
+    </div> <!-- co-nav-menu -->
 
 </div><!-- into-section -->
