@@ -228,14 +228,15 @@
 
 
             <div class="row">
-                <div class="col-md-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
-                <div class="col-md-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
-                <div class="col-md-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
-                <div class="col-md-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
-                <div class="col-md-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
-                <div class="col-md-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
-                <div class="col-md-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
-                <div class="col-md-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+                <div class="col-6 col-lg-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+                <div class="col-6 col-lg-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+                <div class="col-6 col-lg-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+                <div class="col-6 col-lg-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+                <div class="col-6 col-lg-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+                <div class="col-6 col-lg-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+                <div class="col-6 col-lg-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+                <div class="col-6 col-lg-3 mb-3"><?php @include "./shared-html/gallery-card.html"; ?></div>
+
             </div>
 
         </div> <!-- container -->

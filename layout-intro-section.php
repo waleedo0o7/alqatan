@@ -10,7 +10,11 @@
                 </div>
 
                 <div class="end-content">
-                    <p class="date m-0 d-none"> <i class="fa fa-search"></i> </p>
+
+                    <a class="open-mobile-menu">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
                 </div>
 
             </div>
@@ -60,6 +64,10 @@
                 <li class="menu-item"> <a href="view-explanations.php" class="menu-link"> شروح علمية </a></li>
 
                 <li class="menu-item"> <a href="view-kuwait.php" class="menu-link"> كويت الخير </a></li>
+
+                <div class="close-mobile-menu">
+                    <i class="fa fa-times"></i>
+                </div>
 
             </ul>
 

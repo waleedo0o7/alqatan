@@ -233,9 +233,10 @@ h6 {
             justify-content: flex-start;
             align-items: center;
             display: flex;
+            margin-top: 40px;
         }
         .swiper-button-prev {
-            bottom: -40px !important;
+            bottom: -20px !important;
             top: unset !important;
             left: calc(50% - 50px);
             font-size: 32px;
@@ -243,7 +244,7 @@ h6 {
             height: 70px;
         }
         .swiper-button-next {
-            bottom: -40px !important;
+            bottom: -20px !important;
             top: unset !important;
             right: calc(50% - 50px);
             font-size: 32px;

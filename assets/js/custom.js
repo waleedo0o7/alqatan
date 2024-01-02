@@ -7,18 +7,30 @@ $(function () {
     NewsSlider();
     initTestimonialsSlider();
     initAchievementsSlider();
+
+    showMobileMenu();
+    closeMobileMenu();
 });
 
 function initVisualsSlider() {
     const swiper = new Swiper('.visuals-swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 20,
         navigation: {
             nextEl: '.visuals-button-next',
             prevEl: '.visuals-button-prev',
         },
+
+        breakpoints: { 
+            768: {
+                slidesPerView: 2, 
+            },
+            1200: {
+                slidesPerView: 3, 
+            },
+        }
     });
 }
 
@@ -26,12 +38,22 @@ function initMostReadsSlider() {
     const swiper = new Swiper('.most-reads-swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 20,
         navigation: {
             nextEl: '.most-reads-button-next',
             prevEl: '.most-reads-button-prev',
         },
+        breakpoints: { 
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        }
     });
 }
 
@@ -39,12 +61,22 @@ function initExplanationsSlider() {
     const swiper = new Swiper('.explanations-swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 20,
         navigation: {
             nextEl: '.explanations-button-next',
             prevEl: '.explanations-button-prev',
         },
+        breakpoints: { 
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        }
     });
 }
 
@@ -52,12 +84,23 @@ function initPartnersSlider() {
     const swiper = new Swiper('.partners-swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 5,
+        slidesPerView: 2,
         spaceBetween: 50,
         navigation: {
             nextEl: '.partners-button-next',
             prevEl: '.partners-button-prev',
         },
+
+        breakpoints: { 
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            1200: {
+                slidesPerView: 6,
+                spaceBetween: 20,
+            },
+        }
     });
 }
 
@@ -65,7 +108,7 @@ function initGallerySlider() {
     const swiper = new Swiper('.gallery-swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 50,
         pagination: {
             el: '.gallery-pagination',
@@ -76,6 +119,17 @@ function initGallerySlider() {
             nextEl: '.gallery-button-next',
             prevEl: '.gallery-button-prev',
         },
+
+        breakpoints: { 
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        }
     });
 }
 
@@ -140,11 +194,36 @@ function initAchievementsSlider() {
     const swiper = new Swiper('.achievements-swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 20,
         navigation: {
             nextEl: '.achievements-button-next',
             prevEl: '.achievements-button-prev',
         },
+
+        breakpoints: { 
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        }
+    });
+}
+
+function showMobileMenu() {
+    $('.open-mobile-menu').on("click", function () {
+        $(".co-nav-menu").addClass('show');
+        $("body").addClass("fixed-position");
+    });
+}
+
+function closeMobileMenu() {
+    $('.close-mobile-menu').on("click", function () {
+        $(".co-nav-menu").removeClass('show');
+        $("body").removeClass("fixed-position");
     });
 }

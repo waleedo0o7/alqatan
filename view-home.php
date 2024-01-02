@@ -41,7 +41,7 @@
 
                     <div class="title-and-slider">
 
-                        <div class="headline-title">
+                        <div class="headline-title ltr">
 
                             <i class="icon icon-lg icon-title-shape-left me-4"></i>
                             <p class="lead m-0"> الأكثر مشاهدة </p>
@@ -100,7 +100,7 @@
 
         <div class="container mb-3">
             <div class="row">
-                <div class="col-sm-6 col-xl-3">
+                <div class="col-sm-6 col-xl-3  mb-5 mb-md-0">
                     <div class="co-icon-card">
                         <a href="#">
                             <i class="icon icon-video-2 mb-3"></i>
@@ -108,7 +108,7 @@
                         </a>
                     </div><!-- co-icon-card -->
                 </div> <!-- col-sm-6 -->
-                <div class="col-sm-6 col-xl-3">
+                <div class="col-sm-6 col-xl-3  mb-5 mb-md-0">
                     <div class="co-icon-card">
                         <a href="#">
                             <i class="icon icon-video-1 mb-3"></i>
@@ -116,7 +116,7 @@
                         </a>
                     </div><!-- co-icon-card -->
                 </div> <!-- col-sm-6 -->
-                <div class="col-sm-6 col-xl-3">
+                <div class="col-sm-6 col-xl-3  mb-5 mb-md-0">
                     <div class="co-icon-card">
                         <a href="#">
                             <i class="icon icon-book-open-1 mb-3"></i>
@@ -124,7 +124,7 @@
                         </a>
                     </div><!-- co-icon-card -->
                 </div> <!-- col-sm-6 -->
-                <div class="col-sm-6 col-xl-3">
+                <div class="col-sm-6 col-xl-3  mb-5 mb-md-0">
                     <div class="co-icon-card">
                         <a href="#">
                             <i class="icon icon-sound-waves mb-3"></i>

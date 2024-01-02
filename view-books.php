@@ -14,15 +14,17 @@
         </div>
 
         <div class="row mb-5">
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
-            <div class="col-md-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div>
+            <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
+            
+            <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
+            
+            <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
+            
+            <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
+            
+            <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
+            
+            <div class="col-md-6 col-xl-4 mb-4"><?php @include "./shared-html/book-card.html"; ?></div> 
         </div>
 
 
